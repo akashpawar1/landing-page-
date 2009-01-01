@@ -1,0 +1,167 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header,
+footer {
+  background-color: #1f2937;
+  width: 100%;
+  color: #f9faf8;
+}
+
+nav {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main {
+  width: 100%;
+  margin: auto;
+}
+
+.hero-img {
+  width: 900px;
+  height: 200px;
+  background-color: #ffffff22;
+}
+
+.hero {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  padding: 100px 12px;
+  justify-content: space-between;
+  gap: 20px;
+}
+.hero-heading {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header-logo {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+button {
+  border: none;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 8px 28px;
+  margin-top: 10px;
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}
+
+.information-header {
+  margin-top: 12px;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+}
+
+.information-container {
+  display: flex;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 12px;
+}
+.information-img {
+  height: 170px;
+  width: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+
+.information-card {
+  flex: 0 1 auto;
+  padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 200;
+  font-style: italic;
+  width: 100%;
+}
+
+blockquote{
+  max-width: 1200px;
+  margin: auto;
+  padding: 100px 12px;
+}
+
+cite{
+  display: block;
+  text-align: right;
+  font-weight: 700;
+}
+
+
+button,
+.message {
+  background-color: #3882f6;
+  color: #ffffff;
+}
+
+.call-to-action{
+  padding: 40px 12px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.call-to-action>button{
+  border: 2px solid white;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+footer{
+  text-align: center;
+  padding: 12px 0;
+}
